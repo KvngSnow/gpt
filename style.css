@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Itim&family=Manrope:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    background-color: #040C18;
+    padding: 0 100px;
+}
+
+/* .navbar{
+    padding: 0 6.25rem;
+} */
+
+/* navigation bar styling starts */
+nav{
+    margin-top: -10px;
+}
+.navimg{
+    margin-right: 4.375rem;
+}
+ 
+a {
+    color: #fff;
+    font-size: 1.125rem;
+    margin-right: 4.375rem;
+    font-weight: 500;
+}
+
+a:hover{
+    color: #FF4820;
+}
+
+.sgin{
+    outline: none;
+    border: none;
+    width: 9.5rem;
+    height: 3.625rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.sgup{
+    height: 3.625rem;
+    width: 9.5rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    background-color: #FF4820;
+}
+/* end os navigation bar styling */
+
+/* hero section styling stats */
+.hero{
+    margin-top: 20px;
+}
+.hero2 h1 {
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px; 
+    background-image: linear-gradient(90deg, #AE67FA, #F49867);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.hero p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #81AFDD;
+    margin-top: 50px;
+}
+
+form input {
+    width: 456px;
+    height: 73px;
+    background-color: #052D56;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+::placeholder{
+    padding-left: 20px;
+    color: #3D6184;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+form button {
+    width: 174px;
+    height: 73px;
+    background-color: #FF4820;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+form{
+margin-top: 50px;
+margin-bottom: 30px;
+}
+
+ span {
+    font-size: 12px;
+    font-weight: 500;
+    /* margin-left: 15px; */
+}
+
+.text{
+    padding-top: 160px;
+}
+/* end of hero section styling  */
+
+/* alumni section styling */
+.images{
+    text-align: center;
+}
+
+.images img {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+/* alumni section styling ends  */
+
+/* gradient section styling starts */
+.gradient {
+    background-image: url(/images/Mask\ Group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 725px;
+    background-color: #0F4279;
+    margin-top: 200px;
+    padding: 60px 0px 60px 200px;
+}
+
+.gradient h3{
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 75px;
+}
+
+.gradient p{
+    color: #81AFDD;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.gradient h2, .early h2, .feat1 h3{
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 45px;
+      background-image: linear-gradient(to right, #AE67FA, #F49867);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.xplor p, .early1 p{
+    color: #FF8A71;
+}
+
+.xplor, .xplor1 {
+    margin-top: 100px;
+}
+
+.xplor2 {
+    margin-top: 98px;
+}
+/* end of gradient section styling */
+
+/* early access sectiom styling starts */
+.early1 p{
+    margin-top: 60px;
+}
+
+.early2 p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.early3 p{
+    color: #81AFDD;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.early {
+    margin-top: 200px;
+}
+/* end of early access styling */
+
+/* feature imgae section styling starts */
+.featimg {
+    width: 100%;
+
+}
+
+.feat1{
+    margin-top: 430px;
+}
+
+.featimg img{
+    width: 100%;
+}
+
+.feat1 h6 {
+    color: #71E5FF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.feat1 p, .feat1 h5{
+    color: #81AFDD;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.feat1 h5 {
+    color: #FF8A71;
+}
+/* end of feature image styling */
+
+/* gradient background styling starts  */
+.gradback{
+    width: 100%;
+    height: 172px;
+    background: linear-gradient(to right, #AE67FA, #F49867);
+    border-radius: 11px;
+    margin-top: 200px;
+}
+
+.gradbut {
+    padding: 70px 0 0 0;
+}
+
+.gradbut button{
+    outline: none;
+    border: none;
+    width: 182px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.gradback p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #0E0E0E;
+}
+
+.gradback h3 {
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 45px;
+}
+
+.grad{
+    padding: 40px 0 0 90px;
+}
+/* end of gradient background styling  */
+
+/* cards section styling starts */
+.cards{
+    margin-top: 200px;
+}
+
+.cards h2{
+    font-size: 67px;
+    font-weight: 800;
+    line-height: 75px;
+      background-image: linear-gradient(to right, #AE67FA, #F49867);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 130px;
+}
+
+.card1{
+    width: 100%px;
+    height: 696.16px;
+    background-color: #042C54;
+}
+
+.card1 button{
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-left: 40px;
+    margin-top: 170px;
+}
+
+.card1 img{
+    width: 100%;
+    height: 287.73px;
+}
+
+.card1 p{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+
+.card1 h3{
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 32px;
+    padding-left: 40px;
+}
+
+.card2{
+    width:100%;
+    height: 323.84px;
+    background-color: #042C54;
+    margin-bottom: 48.46px;
+}
+
+.card2 img{
+    width: 100%;
+    height: 130.47px;
+}
+
+.card2 p{
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.card2 h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 800;
+    line-height: 31px;
+    padding-left: 40px;
+}
+
+.card2 button {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-left: 40px; 
+}
+
+
+/* end of cards section styling */
+
+/* footer section styling starts */
+.container{
+    margin-top: 100px;
+}
+
+.container p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 40px;
+} 
+
+.container h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.foottxt{
+    text-align: center;
+}
+
+.foottxt h2 {
+    font-size: 67px;
+    font-weight: 800;
+    line-height: 75px;
+          background-image: linear-gradient(to right, #AE67FA, #F49867);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.foottxt button {
+    outline: none;
+    background: none;
+    width: 220px;
+    height: 65px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 70px;
+}
+
+.all{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.all p {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+/* footer section styling ends */
+@media screen and ( max-width: 1300px) {
+   body{
+    padding: 0 20px;
+   }
+}
