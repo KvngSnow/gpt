@@ -203,6 +203,9 @@ margin-bottom: 30px;
 /* end of early access styling */
 
 /* feature imgae section styling starts */
+.feature{
+    padding-left: 150px;
+}
 .featimg {
     width: 100%;
 
@@ -425,9 +428,170 @@ margin-bottom: 30px;
     color: #FFFFFF;
     font-weight: 400;
 }
+
+footer{
+    margin-top: 150px;
+}
 /* footer section styling ends */
 @media screen and ( max-width: 1300px) {
    body{
     padding: 0 20px;
    }
+}
+
+@media screen and (max-width: 600px){
+    .text{
+        padding: 50px 30px;
+    }
+
+    br{
+        display: none;
+    }
+    
+    .hero2 h1 {
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .hero p {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    form input{
+        width: 100%;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    .herimg{
+        width: 100%;
+    }
+
+    span{
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+
+    .images img{
+        display: block;
+        margin-left: 0;
+        margin-top: 70px;
+    }
+    .images{
+        display:grid ;
+        place-items: center;
+    }
+
+    .gradient{
+        height: 1100px;
+        text-align: center;
+        padding: 30px 0;
+        border-radius: 20px;
+    }
+
+    .gradient h3{
+        font-size: 23px;
+    }
+
+    .xplor, .xplor1, .xplor2 {
+        margin: 0px;
+    }
+
+    .xplor h2, .early h2, .feat1 h3, .cards h2, .foottxt h2{ 
+        font-size: 27px;
+    }
+
+    .early{
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .early2 p{
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+
+    .early3 p{
+        margin-bottom: 20px;
+    }
+
+    .feature{
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+
+    .featimg img{
+        width: 100%;
+    }
+
+    .feat1{
+        margin-top: 20px;
+    }
+
+    .feat1 p, .feat1 h5{
+        margin-top: 20px;
+    }
+
+    .gradback{
+        margin-top: 40px;
+        text-align: center;
+        padding: 20px 0;
+        height: 250px;
+    }
+
+    .grad{
+        padding: 0px;
+    }
+
+    .gradbut{
+        padding: 0 20px;
+    }
+
+    .gradbut button {
+        width: 100%;
+    }
+
+    .gradback h3{
+        font-size: 20px;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+
+    .cards{
+        margin-top: 100px;
+    }
+
+    .cards h2{
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .card1{
+        margin-bottom: 48.46px;
+    }
+
+    .card1 p, .card1 h3, .card1 buttoon, .card2 p, .card2 h3, .card2 button{
+        padding: 0px 15px;
+    }
+
+    .card1 h3 {
+        font-size: 22px;
+    }
+
+    .foottxt{
+        margin-top: -70px;
+    }
+
+    .foottxt h2{
+        line-height: normal;
+    }
+
+    .foottxt button {
+        margin-top: 20px;
+    }
 }
