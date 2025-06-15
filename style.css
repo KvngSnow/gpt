@@ -443,6 +443,9 @@ footer{
    .feat1{
     margin-top: 150px;
    }
+   .text{
+    padding: 20px;
+   }
 }
 
 @media screen and (max-width: 600px){
